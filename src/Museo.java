@@ -1,7 +1,7 @@
 import java.util.*;
 public class Museo {
-    public final int ingressi_turisti=5;
-    public int interno=0;
+    public static int ingressi_turisti=5;
+    public static int interno=0;
 
     public synchronized void entramuseo(String nometurista) throws InterruptedException{
 
