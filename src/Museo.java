@@ -8,7 +8,6 @@ public class Museo {
         while(interno >= ingressi_turisti)
         {
             try{
-                System.out.println(nometurista +"attende per l'ingresso");
                 wait();
             }catch(InterruptedException e )
             {
